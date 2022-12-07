@@ -1,0 +1,75 @@
+#div1{
+
+    display: flex;
+    flex-direction:column;
+justify-content: center;
+align-items: center;
+
+margin-left: 50%;
+margin-top: 20%;
+margin-right: 50%;
+margin-bottom: 20%;
+}
+
+#div2{
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction:column;
+justify-content: center;
+align-items: center;
+
+padding: 30px;
+
+background-color: azure;
+
+}
+
+html{
+    background-color: rgba(109, 109, 245, 0.836);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#botao1 {
+    color: #ffffff;
+    background-color: #2d63c8;
+    font-size: 19px;
+    border: 1px solid #2d63c8;
+    border-radius: 7px;
+    padding: 10px 25px;
+    cursor: pointer
+}
+#botao1:hover {
+    color: #2d63c8;
+    background-color: #ffffff;
+}
+
+#botao2 {
+    color: #ffffff;
+    background-color: #0fae44;
+    font-size: 19px;
+    border: 1px solid #0fae44;
+    border-radius: 7px;
+    padding: 10px 25px;
+    cursor: pointer
+}
+#botao2:hover {
+    color: #0fae44;
+    background-color: #ffffff;
+}
+
+
+#botao3 {
+    color: #ffffff;
+    background-color: #ae0f1f;
+    font-size: 19px;
+    border: 1px solid #ae0f1f;
+    border-radius: 7px;
+    padding: 10px 25px;
+    cursor: pointer
+}
+#botao3:hover {
+    color: #ae0f1f;
+    background-color: #ffffff;
+}

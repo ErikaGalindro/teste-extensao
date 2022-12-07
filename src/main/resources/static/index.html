@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Academy Coding</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">
+    <form method="POST" action="cadastro.php">
+        <label>Nome:</label><input type="text" name="nome" id="nome" required>
+        <br>
+        <br>
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone"
+        pattern="[0-9]{2} [0-9]{5}-[0-9]{4}"
+        required>
+        <small>Formato: xx xxxxx-xxxx</small>
+        <br>
+        <br>
+        <button type="submit" name="cadastro" id="botao1">Enviar</button>
+        <br><br>
+        <a href="tabela.html"><button type="button" id="botao2">Tabela</button></a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
