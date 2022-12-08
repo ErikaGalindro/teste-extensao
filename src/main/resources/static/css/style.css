@@ -1,34 +1,34 @@
-#div1{
+#div1 {
 
     display: flex;
-    flex-direction:column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-margin-left: 50%;
-margin-top: 20%;
-margin-right: 50%;
-margin-bottom: 20%;
+    margin-left: 50%;
+    margin-top: 20%;
+    margin-right: 50%;
+    margin-bottom: 20%;
 }
 
-#div2{
+#div2 {
     border: 2px solid black;
     border-radius: 5px;
 
     display: flex;
-    flex-direction:column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-padding: 30px;
+    padding: 30px;
 
-background-color: azure;
+    background-color: azure;
 
 }
 
-html{
+html {
     background-color: rgba(109, 109, 245, 0.836);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #botao1 {
@@ -40,6 +40,7 @@ html{
     padding: 10px 25px;
     cursor: pointer
 }
+
 #botao1:hover {
     color: #2d63c8;
     background-color: #ffffff;
@@ -54,6 +55,7 @@ html{
     padding: 10px 25px;
     cursor: pointer
 }
+
 #botao2:hover {
     color: #0fae44;
     background-color: #ffffff;
@@ -69,7 +71,27 @@ html{
     padding: 10px 25px;
     cursor: pointer
 }
+
 #botao3:hover {
     color: #ae0f1f;
     background-color: #ffffff;
+}
+
+.espaco {
+    width: 400px;
+    height: 10px;
+
+    padding: 10px;
+}
+
+#div3 {
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 30%;
+    margin-bottom: 2%;
+}
+
+tr {
+    background-color: #26a786;
+    color: black;
 }
